@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from '../components/context/AuthContext';
-import { RiSearch2Line } from 'react-icons/ri';
+
 
 const Signup = () => {
   const [email, setEmail] = useState('');
@@ -50,7 +50,7 @@ const Signup = () => {
                 <button className='bg-teal-600 py-3 my-6 rounded font-bold'>
                   Sign Up
                 </button>
-                <RiSearch2Line/>
+                
                 <div className='flex justify-between items-center text-sm text-gray-600'>
                   <p>
                     <input className='mr-2' type='checkbox' />
