@@ -22,7 +22,7 @@ const Navbar = () => {
    
       <div className='flex items-center w-[20%] mb-4 sm:mb-0'>
         <Link to="/">
-          <h1 className='text-teal-500 text-xl font-bold cursor-pointer'>
+          <h1 className='text-teal-500 text-xl md:text-2xl font-bold cursor-pointer'>
             NaturesPro
           </h1>
         </Link>

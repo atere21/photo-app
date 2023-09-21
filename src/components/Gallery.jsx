@@ -20,15 +20,15 @@ const Gallery = () => {
         />
        
         <div className='absolute top-[12%] p-4 mx-4'>
-          <div className='bg-white p-4 md:p-8 rounded mb-8'>
+          <div className='bg-white p-4 md:p-8 rounded mb-8 mt-[8%] md:mt-[4%]'>
             <h1 className='text-2xl md:text-5xl font-bold text-teal-500 mb-4'>
               Welcome to NaturesPro Gallery...
             </h1>
             <p className='text-teal-900 text-xl'>
-              Sign up to view and search for beautiful images, access our drag and drop feature
+              Login to view and search for beautiful images, access our drag and drop feature
             </p>
             <Link
-              className='hover:text-teal-300 font-bold text-teal-600 cursor-pointer'
+              className='hover:text-teal-300 font-bold text-xl text-teal-500 cursor-pointer'
               to='/login'
             >
               Login
