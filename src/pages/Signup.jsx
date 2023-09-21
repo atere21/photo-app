@@ -59,10 +59,11 @@ const Signup = () => {
                   <p>Need Help?</p>
                 </div>
                 <p className='py-8'>
-                  <span className='text-gray-600'>
-                    Already subscribed to ImagePro?
+                  <span className='text-gray-600 mr-2'>
+                    Already subscribed to NaturesPro?
                   </span>{' '}
-                  <Link to='/login'>Sign In</Link>
+                  <Link className='hover:text-gray-300 cursor-pointer'
+                   to='/login'>Sign In</Link>
                 </p>
               </form>
             </div>

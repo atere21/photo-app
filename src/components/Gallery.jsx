@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Gallery = () => {
   // Sample image URLs, you can replace these with your own images
@@ -11,16 +12,28 @@ const Gallery = () => {
 
   return (
     <>
-      <div className='w-full'>
+      <div className='w-full h-full'>
         <img
           className='w-full h-[300px] object-cover'
           src='https://cdn.pixabay.com/photo/2020/01/10/12/49/milk-4755234_640.jpg'
           alt='/'
         />
        
-        <div className='absolute top-[16%] p-4 mx-4 md:p-8'>
-          <h1 className='text-2xl md:text-5xl font-bold text-black my-12'><span className='text-teal-500 text-4xl'>ImagePro </span> Gallery...<br/> <span className='text-teal-900 text-xl'>Sign up to view beautiful images, access our drag and drop feature</span></h1>
-         
+        <div className='absolute top-[12%] p-4 mx-4'>
+          <div className='bg-white p-4 md:p-8 rounded mb-8'>
+            <h1 className='text-2xl md:text-5xl font-bold text-teal-500 mb-4'>
+              Welcome to NaturesPro Gallery...
+            </h1>
+            <p className='text-teal-900 text-xl'>
+              Sign up to view and search for beautiful images, access our drag and drop feature
+            </p>
+            <Link
+              className='hover:text-teal-300 font-bold text-teal-600 cursor-pointer'
+              to='/login'
+            >
+              Login
+            </Link>
+          </div>
         </div>
         <div className='bg-white'>
           <div className='max-w-screen-xl mx-auto p-8'>

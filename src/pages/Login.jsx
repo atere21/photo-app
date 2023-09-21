@@ -60,9 +60,10 @@ const Login = () => {
                 </div>
                 <p className='py-8'>
                   <span className='text-gray-600'>
-                    New to ImagePro?
+                    New to NaturesPro?
                   </span>{' '}
-                  <Link to='/signup'>Sign Up</Link>
+                  <Link className='hover:text-gray-300 cursor-pointer'
+                   to='/signup'>Sign Up</Link>
                 </p>
               </form>
             </div>
