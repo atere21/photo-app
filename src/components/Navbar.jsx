@@ -22,19 +22,20 @@ const Navbar = () => {
    
       <div className='flex items-center w-[20%] mb-4 sm:mb-0'>
         <Link to="/">
-          <h1 className='text-teal-500 text-2xl font-bold cursor-pointer'>
+          <h1 className='text-teal-500 text-xl font-bold cursor-pointer'>
             NaturesPro
           </h1>
         </Link>
-
+        </div>
+        <div className='flex w-[40%] ml-14 text-xl mb-4'>
         {user?.email ? (
           <Link to="/account">
-            <button className='text-teal-500 px-6 py-2 font-bold rounded cursor-pointer'>
-               Account
+            <button className='text-teal-500 flex  px-6 py-2 font-bold rounded cursor-pointer'>
+             Gallery 
             </button>
           </Link>
         ) : null}
-      </div>
+     </div>
            <div className='md:flex grid absolute md:relative mt-[122px] md:mt-0 '>
 
 
