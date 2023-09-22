@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Getting Started with my photo App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a website called NaturesPro. This website allows users to view, search and rearrange images. A user can rearrange images by dragging the images on other images. An authenticated user can search for images based on their tags.. Before a user can have access to this website, a user has to signup, or login for an existing user and a user can logout when they are through with the app.
 
 ## Available Scripts
 
